@@ -1,0 +1,24 @@
+﻿
+@using AuthTestIdentityServer.ViewModels.Login;
+@model LoginViewModel
+
+<div class="row">
+    <div class="col-md-4">
+        <section>
+            <form id="account" method="post">
+                <div asp-validation-summary="All"></div>
+                <div class="form-group">
+                    <label asp-for="login.Username"></label>
+                    <input asp-for="login.Username" />
+                    <div asp-validation-summary="ModelOnly"></div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="login.Password"></label>
+                    <input asp-for="login.Password" type="password"/>
+                </div>
+                <button type="submit">Go</button>
+            </form>
+        </section>
+    </div>
+</div>
+

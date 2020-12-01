@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthTestIdentityServer", "AuthTestIdentityServer\AuthTestIdentityServer.csproj", "{38F46A07-61FD-4DF4-BFBD-BD3496973F77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{AFA90387-00F8-496B-98F1-342654DEDE03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F46A07-61FD-4DF4-BFBD-BD3496973F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F46A07-61FD-4DF4-BFBD-BD3496973F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F46A07-61FD-4DF4-BFBD-BD3496973F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F46A07-61FD-4DF4-BFBD-BD3496973F77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA90387-00F8-496B-98F1-342654DEDE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA90387-00F8-496B-98F1-342654DEDE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA90387-00F8-496B-98F1-342654DEDE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA90387-00F8-496B-98F1-342654DEDE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DBEEEC7-BCED-4702-ACD9-1FCD17475713}
+	EndGlobalSection
+EndGlobal
